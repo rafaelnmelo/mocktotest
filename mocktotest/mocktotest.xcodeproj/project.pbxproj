@@ -24,6 +24,7 @@
 		8DB833CB2C495DE300A55C91 /* NetworkServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB833C02C495AD000A55C91 /* NetworkServiceFactory.swift */; };
 		8DB833CC2C495DEA00A55C91 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB833B92C49518100A55C91 /* Webservice.swift */; };
 		8DB833CE2C495E0B00A55C91 /* MockWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB833C32C495B4B00A55C91 /* MockWebservice.swift */; };
+		8DB833D12C49604E00A55C91 /* LoginPageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB833D02C49604E00A55C91 /* LoginPageObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		8DB833BD2C4951D700A55C91 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		8DB833C02C495AD000A55C91 /* NetworkServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceFactory.swift; sourceTree = "<group>"; };
 		8DB833C32C495B4B00A55C91 /* MockWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWebservice.swift; sourceTree = "<group>"; };
+		8DB833D02C49604E00A55C91 /* LoginPageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		8DB833A22C49509500A55C91 /* mocktotestUITests */ = {
 			isa = PBXGroup;
 			children = (
+				8DB833CF2C49602500A55C91 /* PageObjects */,
 				8DB833C22C495B3C00A55C91 /* Mocks */,
 				8DB833A32C49509500A55C91 /* mocktotestUITests.swift */,
 				8DB833A52C49509500A55C91 /* mocktotestUITestsLaunchTests.swift */,
@@ -203,6 +206,14 @@
 				8DB833C32C495B4B00A55C91 /* MockWebservice.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		8DB833CF2C49602500A55C91 /* PageObjects */ = {
+			isa = PBXGroup;
+			children = (
+				8DB833D02C49604E00A55C91 /* LoginPageObject.swift */,
+			);
+			path = PageObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +372,7 @@
 				8DB833A42C49509500A55C91 /* mocktotestUITests.swift in Sources */,
 				8DB833CB2C495DE300A55C91 /* NetworkServiceFactory.swift in Sources */,
 				8DB833A62C49509500A55C91 /* mocktotestUITestsLaunchTests.swift in Sources */,
+				8DB833D12C49604E00A55C91 /* LoginPageObject.swift in Sources */,
 				8DB833CC2C495DEA00A55C91 /* Webservice.swift in Sources */,
 				8DB833CE2C495E0B00A55C91 /* MockWebservice.swift in Sources */,
 				8DB833CA2C495DE000A55C91 /* LoginResponse.swift in Sources */,
